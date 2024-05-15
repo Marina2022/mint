@@ -1,0 +1,35 @@
+.mintNFT {
+  background: url("@/assets/img/mintNFT/vector-1.svg") no-repeat top -200px left 0,
+  url("@/assets/img/mintNFT/globe.png") no-repeat top 270px right 0;    
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.48); 
+}
+
+.container {
+  max-width: 1385px;
+  margin: 0 auto;
+  padding-top: 185px;
+  padding-bottom: 87px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(37, 214, 139);
+  margin-bottom: 77px;
+}
+
+.nft {
+  font-weight: 400;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
