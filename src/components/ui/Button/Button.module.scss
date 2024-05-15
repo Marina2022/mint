@@ -1,0 +1,12 @@
+
+.btn {
+  border-radius: 12px;
+  background: linear-gradient(90.00deg, rgb(127, 247, 170),rgb(19, 208, 242) 100%);  
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  
+  &:hover {
+    background: linear-gradient(90.00deg, rgb(19, 208, 242), rgb(127, 247, 170) 100%);
+  }
+}

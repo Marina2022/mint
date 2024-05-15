@@ -1,0 +1,15 @@
+.header {
+  background: #1C1E25;
+  padding: 34px;
+  padding-left: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+.rightPartHeaderWrapper {
+  display:  flex;
+  gap: 37px;
+  align-items: center;
+}

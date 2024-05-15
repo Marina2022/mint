@@ -1,0 +1,53 @@
+.hero {  
+  
+  padding-top: 232px;
+  padding-bottom: 340px;
+  
+  //
+  //background: rgb(34, 45, 41) url('@/assets/img/hero/bigGlobe.png') 0px 10px no-repeat,
+  //url('@/assets/img/hero/bigGlobe-2.png') 0px 10px no-repeat;
+  //
+  //
+  //background:
+  //        rgb(34, 45, 41) url('@/assets/img/hero/bigGlobe.png') 0px 10px no-repeat,
+  //        url('@/assets/img/hero/bigGlobe-2.png') 0px 10px no-repeat;
+
+  
+  background:
+          url('@/assets/img/hero/bigGlobe.png') no-repeat 0px 10px,
+          url('@/assets/img/hero/bigGlobe-2.png') no-repeat 342px 600px,
+          url('@/assets/img/hero/globe-3.png') no-repeat 365px 729px,
+          url('@/assets/img/hero/globe-4.png') no-repeat top 290px right 260px,
+          url('@/assets/img/hero/globe-5.png') no-repeat top 473px right 110px;
+
+  background-color: rgb(34, 45, 41);
+}
+
+
+.title {
+  width: 1070px;
+  margin: 0 auto;
+  margin-bottom: 94px;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 106%;
+  text-align: center;
+}
+
+.btn {
+  font-size: 28px!important;
+  font-weight: 600;
+  line-height: 42px;
+  height: 75px;
+  width: 380px;
+  margin: 0 auto;
+  
+  
+  img {
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+    position: relative;
+    bottom: 1px;
+  }
+}
