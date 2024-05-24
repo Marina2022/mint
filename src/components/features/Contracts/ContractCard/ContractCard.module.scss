@@ -1,0 +1,39 @@
+.card {
+  width: 670px;
+  height: 184px;
+  background: #1A1A1A;
+  border-radius: 22px;
+  margin-bottom: 38px;
+  padding: 20px 28px 28px 30px;
+  display: flex;
+  align-items: center;
+  border: #1A1A1A 1px solid;
+  transition: all .2s ease;
+  
+  &:hover {
+    border: #25D68B 1px solid;
+    
+  }
+}
+
+.imageWrapper {
+  width: 170px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  width: 348px;
+}
+
+.btn {
+  width: 65px;
+  height: 65px;
+  color: rgb(0, 0, 0);
+  font-family: Myriad Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-left: auto;
+}
+

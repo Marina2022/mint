@@ -1,0 +1,35 @@
+.contracts {
+  padding-top: 87px;
+  padding-bottom: 110px;    
+  background: rgb(34, 45, 41) url('@/assets/img/contracts/contracts-bg.svg') top -1500px left 0;
+  position: relative;
+} 
+
+.container {
+  max-width: 1385px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 77px;
+}
+
+.greenLetter {
+  color: #25D68B;
+  font-weight: bold;
+}
+
+.contractCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0; 
+}

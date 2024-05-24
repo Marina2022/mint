@@ -1,7 +1,6 @@
 .NftCard {
   min-width: 313px;
   min-height: 422px;
-
   border: 1px solid rgb(179, 179, 179);
   border-radius: 22px;
   background: rgb(26, 26, 26);
@@ -9,6 +8,7 @@
   padding: 15px;  
   display: flex;
   flex-direction: column;
+  transition: all .2s ease;
   
   &:hover {
     border: #25D68B 1px solid;
@@ -78,4 +78,5 @@
 
 .freeWrapper {
   position: relative;
+  cursor: pointer;
 }

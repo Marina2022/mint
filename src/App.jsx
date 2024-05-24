@@ -4,7 +4,6 @@ import Header from "./components/rootLayout/Header/Header.jsx";
 import Footer from "@/components/rootLayout/Footer/Footer.jsx";
 
 function App() {
-
   return (
       <>
         <Header/>

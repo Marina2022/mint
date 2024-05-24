@@ -13,7 +13,6 @@ const CardPopup = () => {
           <span className={s.name}> Platform Fee:</span>
           <span className={s.value}>0.0001 ETH</span>
         </div>
-
         <img className={s.popupTriangle} src={triangle} alt="decorative element"/>
       </div>
   );

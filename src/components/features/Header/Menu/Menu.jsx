@@ -20,7 +20,6 @@ const Menu = () => {
         <li className={s.menuItem}>
           <a href="#faq">Faq</a>
         </li>
-
       </ul>
   );
 };

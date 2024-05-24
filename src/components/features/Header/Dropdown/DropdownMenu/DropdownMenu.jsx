@@ -15,10 +15,8 @@ const DropdownMenu = ({setCurrentItem, setIsMenuOpen, btnRef}) => {
     }
     
     window.addEventListener('keydown', escHandler)
-
     window.addEventListener('click', outsideClickHandler)
-    
-    
+        
     return ()=>{
       window.removeEventListener('keydown', escHandler)
       window.removeEventListener('click', outsideClickHandler)

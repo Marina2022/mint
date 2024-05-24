@@ -22,18 +22,18 @@ const NftCard = () => {
                   </div>
               )
           }
-
         </div>
 
         <h3 className={s.title}>Zrstarts #1</h3>
         <div className={s.priceBlock}>
           <div className={s.price}>Price</div>
           <div className={s.freeWrapper}>
-            <div onMouseEnter={()=>setPopupVisible(true)} onMouseLeave={()=>setPopupVisible(false)} className={s.free}>Free</div>
+            <div onMouseEnter={() => setPopupVisible(true)} onMouseLeave={() => setPopupVisible(false)}
+                 className={s.free}>Free
+            </div>
             {
                 popupVisible && <CardPopup/>
             }
-
           </div>
         </div>
         <Button onClick={mintClickHandler} classname={s.btn}>Mint</Button>

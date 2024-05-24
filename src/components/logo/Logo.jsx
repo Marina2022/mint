@@ -8,7 +8,6 @@ const Logo = () => {
           <span className={s.green}>YOU</span><span className={s.blue}>R</span> LOGO
         </div>        
       </div>
-  );
-};
-
+  )
+}
 export default Logo;

@@ -5,8 +5,7 @@ import DropdownBtn from "@/components/features/Header/Dropdown/DropdownBtn/Dropd
 import Menu from "@/components/features/Header/Menu/Menu.jsx";
 
 const Header = () => {
-  
-  const onConnectButtonClick = () => {
+    const onConnectButtonClick = () => {
     console.log('Клик по Connect Button')
   }
   

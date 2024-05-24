@@ -11,7 +11,6 @@ const DropdownBtn = () => {
   }
   
   const [currentItem, setCurrentItem] = useState(headerDropdownMenuItems[0])
-  
   const btnRef = useRef()
 
   return (

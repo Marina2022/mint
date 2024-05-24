@@ -1,1 +1,47 @@
+.footer {
+  padding-block: 55px;
+  background: rgb(28, 30, 37);
+}
 
+.container {
+  max-width: 1670px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftFooter {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.copy {
+  color: rgba(217, 217, 217, 0.54);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 86px;
+}
+
+.followTitle {
+  color: rgba(217, 217, 217, 0.54);
+  font-family: Myriad Pro;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;   
+}
+
+.rightFooter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

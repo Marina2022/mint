@@ -5,7 +5,6 @@ const MintNft = () => {
 
   const cards = Array.from({length: 16}, () => 1)
 
-
   return (
       <div className={s.mintNFT} id="mint">
         <div className={s.overlay}>

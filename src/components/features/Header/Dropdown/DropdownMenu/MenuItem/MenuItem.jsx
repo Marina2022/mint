@@ -1,8 +1,6 @@
 import s from './MenuItem.module.scss';
-
 const MenuItem = ({item, setCurrentItem, setIsMenuOpen}) => {
-  
-  const itemClickHandler = ()=>{
+    const itemClickHandler = ()=>{
     setCurrentItem(item)
     setIsMenuOpen(false)
   }
